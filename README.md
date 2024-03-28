@@ -1,4 +1,4 @@
-# Multitasking-on-ESP32-with-MQTT-Broker
+# Multitasking-on-ESP32-with-MQTT
 Interfacing multiple sensors on ESP32, measuring their values, and sending data to the MQTT-based NodeRed server.
 
 Utilizing the multitasking and wireless connection capabilities of ESP32, this project reads data from multiple sensors pinned to one core. It sends them over an MQTT Broker to NodeRed server pinned on the second core simultaneously. 
